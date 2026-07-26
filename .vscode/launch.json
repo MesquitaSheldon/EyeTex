@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EyetexApplication",
+            "request": "launch",
+            "mainClass": "com.ifba.eyetex.EyetexApplication",
+            "projectName": "eyetex"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EyeTexApplication<meu-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ifba.eyetex.EyeTexApplication",
+            "projectName": "meu-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,9 +1,12 @@
 package com.ifba.eyetex;
 
-public class EyeTexApplication 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EyetexApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(EyetexApplication.class, args);
     }
 }
