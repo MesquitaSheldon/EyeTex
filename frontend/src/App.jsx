@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-
+import Voz from './components/ComponenteDeVoz.jsx'
 import './App.css'
 
 function App() {
@@ -23,7 +23,10 @@ function App() {
         <section id="spacer"></section>
 
         <div>
-
+          <Voz
+            voiceIssWorking={voiceIssWorking}
+            setVoiceIsWorking={setVoiceIsWorking}
+          />
         </div>
       </section>
     </>
