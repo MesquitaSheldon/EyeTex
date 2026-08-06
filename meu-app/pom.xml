@@ -18,9 +18,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!-- Atualizado para Java 17 (Requisito do Spring Boot 3) -->
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>26.0.2</maven.compiler.source>
+    <maven.compiler.target>26.0.2</maven.compiler.target>
   </properties>
 
   <dependencies>
